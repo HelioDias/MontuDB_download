@@ -1,0 +1,77 @@
+{
+  "product": "MontuDB",
+  "version": "2.30",
+  "based_on": "PostgreSQL 17.2",
+  "version_string": "PostgreSQL 17.2 (MontuDB 2.30)",
+  "server_version_num": 170002,
+  "release_type": "production (optimized -O2, assertions off, stripped)",
+  "install_prefix": "/opt/montudb/2.30",
+  "suggested_port": 55432,
+  "artifact_count": 8,
+  "artifacts": [
+    {
+      "name": "montudb_2.30-1_amd64.deb",
+      "architecture": "amd64",
+      "format": "deb",
+      "size_bytes": 5180680,
+      "sha256": "6356944d7b0bfcc5b0597207de4a3bb2c68193060793de76e57ebe5b9879d069",
+      "validation_status": "version-verified (PostgreSQL 17.2 (MontuDB 2.30)); runs on native amd64 hardware"
+    },
+    {
+      "name": "montudb_2.30-1_arm64.deb",
+      "architecture": "arm64",
+      "format": "deb",
+      "size_bytes": 4686316,
+      "sha256": "2152becb1d6eef5fb9a501f6273607ca990d625eacc19164dff0edff7d5f1b5f",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 2.30), server_version_num=170002, debug_assertions=off, SELECT version()"
+    },
+    {
+      "name": "montudb-2.30-1.x86_64.rpm",
+      "architecture": "x86_64",
+      "format": "rpm",
+      "size_bytes": 5572361,
+      "sha256": "ef1de072424c19a2558c8a8be8d2b99e6609915710abf11b09b53f4fd960790c",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 2.30), server_version_num=170002, debug_assertions=off, SELECT version()"
+    },
+    {
+      "name": "montudb-2.30-1.aarch64.rpm",
+      "architecture": "aarch64",
+      "format": "rpm",
+      "size_bytes": 5471364,
+      "sha256": "5eb29fbe26fb74737b14730bd4e6d6fbd190e99350dbab89ea279a6605ebd27a",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 2.30), server_version_num=170002, debug_assertions=off, SELECT version()"
+    },
+    {
+      "name": "montudb-2.30-pg17.2-linux-amd64.tar.gz",
+      "architecture": "amd64",
+      "format": "tarball",
+      "size_bytes": 8003347,
+      "sha256": "2036560906d0b387f105d55675db8e27d65cde508a891593af5b0a9043ba0d41",
+      "validation_status": "version-verified (PostgreSQL 17.2 (MontuDB 2.30)); runs on native amd64 hardware"
+    },
+    {
+      "name": "montudb-2.30-pg17.2-linux-arm64.tar.gz",
+      "architecture": "arm64",
+      "format": "tarball",
+      "size_bytes": 7799230,
+      "sha256": "c540252e06a4ea7e4a6e14254238d4b66cef2c8da64cdf2381894e989722f302",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 2.30), server_version_num=170002, debug_assertions=off, SELECT version()"
+    },
+    {
+      "name": "montudb-2.30-docker-amd64.tar",
+      "architecture": "amd64",
+      "format": "docker",
+      "size_bytes": 52113920,
+      "sha256": "1ff3c2bd3e0754e3e17d7de40f10ce3e11073dbe5b2147584db1ba274c1cdc80",
+      "validation_status": "version-verified (PostgreSQL 17.2 (MontuDB 2.30)); runs on native amd64 hardware"
+    },
+    {
+      "name": "montudb-2.30-docker-arm64.tar",
+      "architecture": "arm64",
+      "format": "docker",
+      "size_bytes": 51772416,
+      "sha256": "5b97b8e143ecee1d789edde581ff52c77340c0af41b5665ae74ac75ae1b7e0f6",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 2.30), server_version_num=170002, debug_assertions=off, SELECT version()"
+    }
+  ]
+}
