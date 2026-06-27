@@ -12,6 +12,10 @@ Binary distributions of **MontuDB**, a fork of PostgreSQL 17.2.
 Each version has its own `README.md`, `SHA256SUMS` and `release-manifest.json`.
 Raspberry Pi 64-bit uses the `arm64` artifacts.
 
+**Documentation:** [MontuDB 4.8 Manual (PDF)](montudb-4.80/MontuDB_4.8_Manual.pdf) — the Montu
+Optimizer hint (`montu_optimizer(...)`), the `montu.*` GUCs, the possible combinations, and how
+to verify what fired via `EXPLAIN`.
+
 ---
 
 ## MontuDB 2.30
