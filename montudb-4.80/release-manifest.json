@@ -1,0 +1,78 @@
+{
+  "product": "MontuDB",
+  "version": "4.80",
+  "based_on": "PostgreSQL 17.2",
+  "version_string": "PostgreSQL 17.2 (MontuDB 4.8)",
+  "server_version_num": 170002,
+  "release_type": "production (optimized -O2, assertions off, stripped)",
+  "install_prefix": "/opt/montudb/4.80",
+  "suggested_port": 55432,
+  "source_commit": "aaf0b0c (montu/v4-compose)",
+  "artifact_count": 8,
+  "artifacts": [
+    {
+      "name": "montudb_4.80-1_amd64.deb",
+      "architecture": "amd64",
+      "format": "deb",
+      "size_bytes": 5232140,
+      "sha256": "ba3ff8854ffce1d16170122f785b4cebe53c0f8af48ae8586ffc91359f54270b",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 4.8), server_version_num=170002, debug_assertions=off, SELECT version(); built natively on its own architecture (arm64 on Raspberry Pi, amd64 on an x86_64 host)"
+    },
+    {
+      "name": "montudb_4.80-1_arm64.deb",
+      "architecture": "arm64",
+      "format": "deb",
+      "size_bytes": 4734680,
+      "sha256": "ba4f5d5ca0ea1e6eff72a635310704fa6eb5431d7ba580895d0806a265476fe8",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 4.8), server_version_num=170002, debug_assertions=off, SELECT version(); built natively on its own architecture (arm64 on Raspberry Pi, amd64 on an x86_64 host)"
+    },
+    {
+      "name": "montudb-4.80-1.x86_64.rpm",
+      "architecture": "x86_64",
+      "format": "rpm",
+      "size_bytes": 5623254,
+      "sha256": "b5374f273b0657be74ad88e8d6a5ee6c8399b800c22a8e7bd2d6c31109145f2a",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 4.8), server_version_num=170002, debug_assertions=off, SELECT version(); built natively on its own architecture (arm64 on Raspberry Pi, amd64 on an x86_64 host)"
+    },
+    {
+      "name": "montudb-4.80-1.aarch64.rpm",
+      "architecture": "aarch64",
+      "format": "rpm",
+      "size_bytes": 5523074,
+      "sha256": "60698f0c069a760171a2b717e3ced82419ef9c79f92b9649e023ac5e1d067fce",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 4.8), server_version_num=170002, debug_assertions=off, SELECT version(); built natively on its own architecture (arm64 on Raspberry Pi, amd64 on an x86_64 host)"
+    },
+    {
+      "name": "montudb-4.80-pg17.2-linux-amd64.tar.gz",
+      "architecture": "amd64",
+      "format": "tarball",
+      "size_bytes": 8060112,
+      "sha256": "789b8425c74ddad77380690132cc205a3ef4defe3e8aace39882543dfb2e4f62",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 4.8), server_version_num=170002, debug_assertions=off, SELECT version(); built natively on its own architecture (arm64 on Raspberry Pi, amd64 on an x86_64 host)"
+    },
+    {
+      "name": "montudb-4.80-pg17.2-linux-arm64.tar.gz",
+      "architecture": "arm64",
+      "format": "tarball",
+      "size_bytes": 7861832,
+      "sha256": "36ebbff80d499dc992be90f46e3be88c51316f87bbfbadc8c272263f8b15049c",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 4.8), server_version_num=170002, debug_assertions=off, SELECT version(); built natively on its own architecture (arm64 on Raspberry Pi, amd64 on an x86_64 host)"
+    },
+    {
+      "name": "montudb-4.80-docker-amd64.tar",
+      "architecture": "amd64",
+      "format": "docker",
+      "size_bytes": 52188160,
+      "sha256": "7ea798620f4bf029e731ded88c4181bb9dd55fb3ec320579c4890e8e7d332eef",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 4.8), server_version_num=170002, debug_assertions=off, SELECT version(); built natively on its own architecture (arm64 on Raspberry Pi, amd64 on an x86_64 host)"
+    },
+    {
+      "name": "montudb-4.80-docker-arm64.tar",
+      "architecture": "arm64",
+      "format": "docker",
+      "size_bytes": 51839488,
+      "sha256": "7e45bb49fd8ad10c657e6335dcc13e999e1080d5b15fd805c727f3dbb93a1ff0",
+      "validation_status": "validated full functional: postgres/psql --version, initdb, start, SHOW server_version=17.2 (MontuDB 4.8), server_version_num=170002, debug_assertions=off, SELECT version(); built natively on its own architecture (arm64 on Raspberry Pi, amd64 on an x86_64 host)"
+    }
+  ]
+}
