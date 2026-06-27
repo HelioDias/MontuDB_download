@@ -31,6 +31,12 @@ running on the default `5432`.
 
 **Raspberry Pi 64-bit uses the `arm64` artifacts.**
 
+## Documentation
+
+- [`MontuDB_4.8_Manual.pdf`](MontuDB_4.8_Manual.pdf) — usage manual for the Montu Optimizer:
+  the `montu_optimizer(...)` hint, the `montu.*` GUCs, the possible combinations, and how to
+  verify what fired via `EXPLAIN`.
+
 ## Notes
 
 - **Debian/Ubuntu/Raspberry Pi OS:** install the matching `.deb`.
